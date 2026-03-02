@@ -83,27 +83,49 @@
               
               
               <div class="project-module module form project-module-form js-project-module-form js-js-project-module" data-id="m5f74a15e739e7ddcb40e4b2f16c808feb6095a984bd1076ff3a9c">
-  <form class="contact-form e2e-site-contact-form">
+  <form class="contact-form e2e-site-contact-form" action="https://formspree.io/f/xkovlodk" method="POST">
      
       <div class="form-input">
-            <label for="field1">Name *</label>
-            <input type="text" name="field1" data-validate="required,Generic" placeholder="Your Name..." required />
+            <label for="name">Name *</label>
+            <input type="text" name="name" placeholder="Your Name..." required />
       </div>
      
       <div class="form-input">
             <label for="email">Email Address *</label>
-            <input type="text" name="email" data-validate="required,Email,required" placeholder="Your Email Address..." required />
+            <input type="email" name="email" placeholder="Your Email Address..." required />
       </div>
      
       <div class="form-input">
-            <label for="field2">Message *</label>
-            <textarea name="field2" data-validate="required,Generic" placeholder="Your Message..." required></textarea>
+            <label for="message">Message *</label>
+            <textarea name="message" placeholder="Your Message..." required></textarea>
       </div>
-                                <div class="js-submit submit-button" data-id="m5f74a15e739e7ddcb40e4b2f16c808feb6095a984bd1076ff3a9c"><span class="js-submit-text submit-text preserve-whitespace">Submit</span></div>
+                                <button type="submit" class="js-submit submit-button"><span class="js-submit-text submit-text preserve-whitespace">Submit</span></button>
   </form>
   <div class="contact-form-sent">
     Thank you!
   </div>
+  <script>
+    document.querySelector('.contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      var form = this;
+      var btn = form.querySelector('.submit-text');
+      btn.textContent = 'Sending...';
+      fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      }).then(function(response) {
+        if (response.ok) {
+          form.style.display = 'none';
+          form.parentElement.querySelector('.contact-form-sent').style.display = 'block';
+        } else {
+          btn.textContent = 'Error, try again';
+        }
+      }).catch(function() {
+        btn.textContent = 'Error, try again';
+      });
+    });
+  </script>
 </div>
 
               
