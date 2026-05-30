@@ -309,3 +309,108 @@ html.lightbox-zoomed #lightbox-img-wrap .lightbox-extra {
   animation-duration: 0.25s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
+
+/* ── Dark theme ── */
+:root {
+  --bg:        #1c1a27;
+  --surface:   #221f2e;
+  --border:    rgba(255,255,255,0.07);
+  --text-1:    #ede9f8;
+  --text-2:    rgba(237,233,248,0.62);
+  --text-3:    rgba(237,233,248,0.32);
+}
+
+html, body {
+  background-color: var(--bg) !important;
+  color: var(--text-1) !important;
+}
+
+/* ── Nav / Header ── */
+.site-header {
+  background: var(--bg) !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+.responsive-nav {
+  background: var(--bg) !important;
+  border-right: 1px solid var(--border) !important;
+}
+.site-header a,
+.nav-container a,
+.responsive-nav a {
+  color: var(--text-2) !important;
+}
+.site-header a:hover,
+.nav-container a:hover,
+.responsive-nav a:hover,
+.site-header a.active,
+.nav-container a.active,
+.responsive-nav a.active {
+  color: var(--text-1) !important;
+}
+.hamburger i {
+  background: var(--text-1) !important;
+}
+.close-responsive-button::before,
+.close-responsive-button::after {
+  background: var(--text-1) !important;
+}
+
+/* ── About / Contact page content ── */
+.page-header .title,
+.page-header h1 {
+  color: var(--text-1) !important;
+}
+.page-container,
+.page,
+.standard-modules,
+.page-content,
+#project-canvas,
+#project-modules {
+  background: var(--bg) !important;
+  color: var(--text-1) !important;
+}
+.module-text,
+.rich-text,
+.preserve-whitespace {
+  color: var(--text-2) !important;
+}
+.module-text a,
+.rich-text a {
+  color: var(--text-1) !important;
+}
+.page-content input,
+.page-content textarea,
+.page-content select {
+  background: var(--surface) !important;
+  border-color: var(--border) !important;
+  color: var(--text-1) !important;
+}
+.page-content input::placeholder,
+.page-content textarea::placeholder {
+  color: var(--text-3) !important;
+}
+.page-content button[type="submit"],
+.page-content input[type="submit"] {
+  background: var(--text-1) !important;
+  color: var(--bg) !important;
+  border-color: var(--text-1) !important;
+}
+
+/* ── Back-to-top ── */
+.js-back-to-top {
+  background: var(--surface) !important;
+  color: var(--text-1) !important;
+  border-color: var(--border) !important;
+}
+
+/* ── Global font: Montserrat for all text (hero display title keeps its serif) ── */
+html, body,
+h1, h2, h3, h4, h5, h6,
+p, a, span, li, blockquote, figcaption,
+button, input, textarea, select, label,
+.title, .subtitle, .caption, .nav-container, .responsive-nav {
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif !important;
+}
+.hero-title {
+  font-family: 'Fraunces', Georgia, 'Times New Roman', serif !important;
+}

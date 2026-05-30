@@ -7,6 +7,9 @@
       <meta  property="og:title" content="Ophir Zadicareo" />
       <meta  property="og:image" content="https://cdn.myportfolio.com/f336d56a-c4d7-4a34-bd6a-a9123d4662bd/b722ea21-52e0-4a52-9bc4-521bd0bca61e_rwc_430x0x581x773x581.png?h=0449d1839671ec4a96f1b803e3486d1a" />
       <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURUxpcU3H2DoAAAABdFJOUwBA5thmAAAADElEQVQI12NgIA0AAAAwAAHHqoWOAAAAAElFTkSuQmCC"  />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,500;1,9..144,600&family=Montserrat:wght@400;500;600;700&display=swap" />
       <link rel="stylesheet" href="dist/css/main.css" type="text/css" />
       <link rel="stylesheet" href="https://cdn.myportfolio.com/f336d56a-c4d7-4a34-bd6a-a9123d4662bd/f42d1fd635532e1957c3a0c1a1b07a761771687749.css?h=798b5c36389302045c1fdea556e5300a" type="text/css" />
     <link rel="canonical" href="https://ophirza.myportfolio.com/new-portfolio" />
@@ -52,18 +55,24 @@
         margin-bottom: 24px;
       }
       .hero-title {
-        font-family: 'Helvetica Neue', Arial, sans-serif;
-        font-size: clamp(52px, 8vw, 96px);
-        font-weight: 800;
+        font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
+        font-size: clamp(52px, 8vw, 104px);
+        font-weight: 500;
+        font-style: italic;
+        font-optical-sizing: auto;
         line-height: 1.0;
-        letter-spacing: -2px;
+        letter-spacing: -1px;
         color: #fff;
         margin: 0 0 32px;
+        white-space: nowrap;
+      }
+      @media (max-width: 600px) {
+        .hero-title { white-space: normal; }
       }
       .hero-sub {
-        font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
         font-size: 18px;
-        line-height: 1.7;
+        line-height: 26.6px;
         color: rgba(255,255,255,0.7);
         margin: 0 0 48px;
         max-width: 480px;
@@ -72,7 +81,7 @@
         display: inline-flex;
         align-items: center;
         gap: 10px;
-        font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
         font-size: 12px;
         font-weight: 600;
         letter-spacing: 1.5px;
@@ -92,6 +101,13 @@
       }
       .hero-arrow { display: inline-block; transition: transform 0.2s; }
       .hero-cta:hover .hero-arrow { transform: translateY(3px); }
+      .hero-meta {
+        font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        color: rgba(255,255,255,0.45);
+        margin: 40px 0 0;
+      }
       .hero-deco {
         position: absolute;
         right: -1%;
@@ -360,10 +376,10 @@
       <section class="site-hero">
         <canvas class="hero-canvas" width="400" height="400" aria-hidden="true"></canvas>
         <div class="hero-inner">
-          <span class="hero-eyebrow">Product Designer</span>
-          <h1 class="hero-title">Hey,<br>I'm Ophir.</h1>
-          <p class="hero-sub">I turn ideas into experiences<br> that spark joy and innovation.</p>
+          <h1 class="hero-title">Product designer</h1>
+          <p class="hero-sub">Hi, I'm Ophir — a product designer. I'm mostly here for the thinking part — the why, the how, staring at things until they make sense.</p>
           <a class="hero-cta" href="#work">View my work <span class="hero-arrow">↓</span></a>
+          <p class="hero-meta">Senior Product Designer @ Bluewhite — based in Tel Aviv (for now)</p>
         </div>
         <div class="hero-deco" aria-hidden="true">OZ</div>
       </section>
@@ -386,6 +402,7 @@
 
           var mx = -1, my = -1;
           var PUSH_R = 0.28, PUSH_S = 0.002;
+          var SPEED = 0.65; // overall blob motion speed (lower = slower)
 
           hero.addEventListener('mousemove', function (e) {
             var r = hero.getBoundingClientRect();
@@ -413,8 +430,8 @@
             // ── Physics ──────────────────────────────────────────────────
             for (var i = 0; i < blobs.length; i++) {
               var b = blobs[i];
-              b.x += b.vx;
-              b.y += b.vy;
+              b.x += b.vx * SPEED;
+              b.y += b.vy * SPEED;
 
               // Vertical bounce with organic speed variation
               if (b.y < 0.06) {

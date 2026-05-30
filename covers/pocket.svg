@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pocketFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#faf9f7" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#faf9f7" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="960" height="560" fill="#faf9f7"/>
+  <rect x="0" y="0" width="320" height="560" fill="#fff" stroke="#eeece9" stroke-width="1"/>
+  <text x="28" y="36" font-family="'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#1a1a1a">My List</text>
+  <text x="28" y="56" font-family="'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#aaa">128 items saved</text>
+  <rect x="28" y="70" width="60" height="26" rx="13" fill="#1a1a1a"/>
+  <text x="58" y="87" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="600" fill="#fff">All</text>
+  <rect x="96" y="70" width="72" height="26" rx="13" fill="#f0ece8"/>
+  <text x="132" y="87" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#888">Articles</text>
+  <rect x="176" y="70" width="64" height="26" rx="13" fill="#f0ece8"/>
+  <text x="208" y="87" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#888">Videos</text>
+  <rect x="0" y="112" width="320" height="90" fill="#f5f2ee"/>
+  <rect x="0" y="112" width="3" height="90" fill="#1a1a1a"/>
+  <text x="20" y="134" font-family="'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">The future of product design</text>
+  <text x="20" y="152" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#999">Design Matters · 6 min read</text>
+  <rect x="20" y="168" width="40" height="16" rx="8" fill="#ddf4e8"/>
+  <text x="40" y="180" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" fill="#16a34a">Design</text>
+  <rect x="68" y="168" width="34" height="16" rx="8" fill="#e8e4ff"/>
+  <text x="85" y="180" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" fill="#7c3aed">UX</text>
+  <line x1="16" y1="202" x2="304" y2="202" stroke="#eeece9" stroke-width="1"/>
+  <text x="20" y="222" font-family="'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="600" fill="#1a1a1a">How to build better habits</text>
+  <text x="20" y="240" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#bbb">Atomic Habits Blog · 4 min read</text>
+  <rect x="20" y="250" width="48" height="16" rx="8" fill="#fff3e0"/>
+  <text x="44" y="262" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" fill="#ea580c">Health</text>
+  <line x1="16" y1="278" x2="304" y2="278" stroke="#eeece9" stroke-width="1"/>
+  <text x="20" y="298" font-family="'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="600" fill="#1a1a1a">Why typography matters</text>
+  <text x="20" y="316" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#bbb">Medium · 3 min read</text>
+  <rect x="20" y="326" width="40" height="16" rx="8" fill="#ddf4e8"/>
+  <text x="40" y="338" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" fill="#16a34a">Design</text>
+  <line x1="16" y1="354" x2="304" y2="354" stroke="#eeece9" stroke-width="1"/>
+  <text x="20" y="374" font-family="'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="600" fill="#1a1a1a" opacity="0.5">The AI design revolution</text>
+  <text x="20" y="392" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#bbb" opacity="0.5">TechCrunch · 8 min read</text>
+  <line x1="16" y1="410" x2="304" y2="410" stroke="#eeece9" stroke-width="1" opacity="0.5"/>
+  <text x="20" y="430" font-family="'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="600" fill="#1a1a1a" opacity="0.3">Remote work is here to stay</text>
+  <text x="20" y="448" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#bbb" opacity="0.3">The Atlantic · 5 min read</text>
+  <rect x="320" y="0" width="640" height="560" fill="#faf9f7"/>
+  <rect x="320" y="0" width="640" height="48" fill="#fff" stroke="#eeece9" stroke-width="1"/>
+  <text x="360" y="29" font-family="'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#aaa">Aa</text>
+  <text x="440" y="29" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#aaa">6 min read</text>
+  <rect x="856" y="12" width="72" height="26" rx="6" fill="#f0ece8"/>
+  <text x="892" y="29" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#555">Archive</text>
+  <text x="640" y="104" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#aaa" letter-spacing="2">DESIGN MATTERS</text>
+  <text x="640" y="148" text-anchor="middle" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#1a1a1a">The future of product</text>
+  <text x="640" y="182" text-anchor="middle" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#1a1a1a">design</text>
+  <text x="640" y="214" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#aaa">By Sarah Chen  ·  March 2024</text>
+  <line x1="560" y1="230" x2="720" y2="230" stroke="#eeece9" stroke-width="1"/>
+  <rect x="380" y="248" width="400" height="10" rx="3" fill="#e8e4df"/>
+  <rect x="380" y="266" width="380" height="10" rx="3" fill="#e8e4df"/>
+  <rect x="380" y="284" width="395" height="10" rx="3" fill="#e8e4df"/>
+  <rect x="380" y="302" width="360" height="10" rx="3" fill="#e8e4df"/>
+  <rect x="380" y="320" width="400" height="10" rx="3" fill="#e8e4df"/>
+  <rect x="380" y="338" width="250" height="10" rx="3" fill="#e8e4df"/>
+  <rect x="360" y="364" width="5" height="80" rx="2" fill="#1a1a1a"/>
+  <text x="376" y="390" font-family="Georgia,serif" font-size="16" font-style="italic" fill="#444">"Design is not just what it looks</text>
+  <text x="376" y="412" font-family="Georgia,serif" font-size="16" font-style="italic" fill="#444">like and feels like. Design is</text>
+  <text x="376" y="434" font-family="Georgia,serif" font-size="16" font-style="italic" fill="#444">how it works."</text>
+  <rect x="380" y="462" width="400" height="10" rx="3" fill="#e8e4df"/>
+  <rect x="380" y="480" width="390" height="10" rx="3" fill="#e8e4df"/>
+  <rect x="380" y="498" width="320" height="10" rx="3" fill="#e8e4df"/>
+  <rect x="320" y="480" width="640" height="80" fill="url(#pocketFade)"/>
+</svg>

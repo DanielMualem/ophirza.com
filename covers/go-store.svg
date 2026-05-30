@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fadeBottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1117" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0e1117" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="960" height="560" fill="#0e1117"/>
+  <rect x="0" y="0" width="960" height="52" fill="#161c26"/>
+  <text x="32" y="32" font-family="'Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="-0.3">Go Store</text>
+  <rect x="200" y="14" width="340" height="26" rx="6" fill="#1e2532"/>
+  <text x="218" y="31" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#555">Search services...</text>
+  <text x="700" y="32" font-family="'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#777">Browse</text>
+  <text x="760" y="32" font-family="'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#777">My Services</text>
+  <text x="860" y="32" font-family="'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#777">Support</text>
+  <rect x="32" y="68" width="76" height="26" rx="13" fill="#4f6ef7"/>
+  <text x="70" y="85" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="600" fill="#fff">All</text>
+  <rect x="118" y="68" width="88" height="26" rx="13" fill="#1e2532"/>
+  <text x="162" y="85" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#888">Network</text>
+  <rect x="216" y="68" width="88" height="26" rx="13" fill="#1e2532"/>
+  <text x="260" y="85" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#888">Security</text>
+  <rect x="314" y="68" width="88" height="26" rx="13" fill="#1e2532"/>
+  <text x="358" y="85" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#888">Cloud</text>
+  <rect x="412" y="68" width="88" height="26" rx="13" fill="#1e2532"/>
+  <text x="456" y="85" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#888">Analytics</text>
+  <rect x="32" y="110" width="560" height="180" rx="10" fill="#161c26" stroke="#2a3347" stroke-width="1"/>
+  <rect x="32" y="110" width="180" height="180" rx="10" fill="#1a2240"/>
+  <rect x="76" y="156" width="92" height="88" rx="12" fill="#4f6ef7" fill-opacity="0.2"/>
+  <text x="122" y="210" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="32" fill="#4f6ef7">⚡</text>
+  <text x="236" y="148" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#4f6ef7" font-weight="600" letter-spacing="1">FEATURED</text>
+  <text x="236" y="170" font-family="'Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#ffffff">Smart Network Optimizer</text>
+  <text x="236" y="190" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#666">AI-powered traffic balancing</text>
+  <text x="236" y="216" font-family="'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#f5a623">★★★★★</text>
+  <text x="316" y="216" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#666"> 4.8  ·  2.1k installs</text>
+  <rect x="450" y="252" width="120" height="30" rx="6" fill="#4f6ef7"/>
+  <text x="510" y="271" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#fff">Add Service</text>
+  <rect x="32" y="304" width="172" height="136" rx="8" fill="#161c26" stroke="#22293a" stroke-width="1"/>
+  <rect x="52" y="322" width="44" height="44" rx="8" fill="#1a3a2a"/>
+  <text x="74" y="351" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="22" fill="#34c77b">🛡</text>
+  <text x="52" y="384" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#eee">SecureEdge</text>
+  <text x="52" y="400" font-family="'Helvetica Neue',Arial,sans-serif" font-size="10" fill="#555">Firewall &amp; DDoS</text>
+  <text x="52" y="428" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#f5a623">★★★★</text>
+  <text x="94" y="428" font-family="'Helvetica Neue',Arial,sans-serif" font-size="10" fill="#555"> 4.4</text>
+  <rect x="216" y="304" width="172" height="136" rx="8" fill="#161c26" stroke="#22293a" stroke-width="1"/>
+  <rect x="236" y="322" width="44" height="44" rx="8" fill="#1a2a3d"/>
+  <text x="258" y="351" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="22" fill="#4f9ef7">☁</text>
+  <text x="236" y="384" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#eee">CloudConnect</text>
+  <text x="236" y="400" font-family="'Helvetica Neue',Arial,sans-serif" font-size="10" fill="#555">Hybrid cloud link</text>
+  <text x="236" y="428" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#f5a623">★★★★★</text>
+  <text x="280" y="428" font-family="'Helvetica Neue',Arial,sans-serif" font-size="10" fill="#555"> 4.9</text>
+  <rect x="400" y="304" width="172" height="136" rx="8" fill="#161c26" stroke="#22293a" stroke-width="1"/>
+  <rect x="420" y="322" width="44" height="44" rx="8" fill="#2d1a3a"/>
+  <text x="442" y="351" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="22" fill="#a855f7">📊</text>
+  <text x="420" y="384" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#eee">Insight Analytics</text>
+  <text x="420" y="400" font-family="'Helvetica Neue',Arial,sans-serif" font-size="10" fill="#555">Network intelligence</text>
+  <text x="420" y="428" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#f5a623">★★★★</text>
+  <text x="462" y="428" font-family="'Helvetica Neue',Arial,sans-serif" font-size="10" fill="#555"> 4.2</text>
+  <rect x="612" y="110" width="316" height="330" rx="10" fill="#161c26" stroke="#22293a" stroke-width="1"/>
+  <text x="632" y="144" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#666" letter-spacing="0.5">SERVICE DETAILS</text>
+  <rect x="632" y="158" width="276" height="52" rx="8" fill="#4f6ef7" fill-opacity="0.15" stroke="#4f6ef7" stroke-width="1"/>
+  <text x="648" y="180" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#eee">Starter</text>
+  <text x="648" y="198" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#777">Up to 100 nodes</text>
+  <text x="876" y="184" text-anchor="end" font-family="'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#4f6ef7">$299/mo</text>
+  <rect x="632" y="220" width="276" height="52" rx="8" fill="#1e2532"/>
+  <text x="648" y="242" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#eee">Professional</text>
+  <text x="648" y="260" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#777">Up to 500 nodes</text>
+  <text x="876" y="246" text-anchor="end" font-family="'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#888">$799/mo</text>
+  <rect x="632" y="282" width="276" height="52" rx="8" fill="#1e2532"/>
+  <text x="648" y="304" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#eee">Enterprise</text>
+  <text x="648" y="322" font-family="'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#777">Unlimited</text>
+  <text x="876" y="308" text-anchor="end" font-family="'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#888">Custom</text>
+  <rect x="632" y="346" width="132" height="52" rx="8" fill="#1e2532"/>
+  <text x="698" y="368" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#fff">2.1k</text>
+  <text x="698" y="386" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="10" fill="#555">Active Installs</text>
+  <rect x="776" y="346" width="132" height="52" rx="8" fill="#1e2532"/>
+  <text x="842" y="368" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#34c77b">98%</text>
+  <text x="842" y="386" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="10" fill="#555">Uptime</text>
+  <rect x="32" y="452" width="172" height="80" rx="8" fill="#161c26" stroke="#22293a" stroke-width="1" opacity="0.5"/>
+  <rect x="216" y="452" width="172" height="80" rx="8" fill="#161c26" stroke="#22293a" stroke-width="1" opacity="0.5"/>
+  <rect x="400" y="452" width="172" height="80" rx="8" fill="#161c26" stroke="#22293a" stroke-width="1" opacity="0.5"/>
+  <rect x="0" y="480" width="960" height="80" fill="url(#fadeBottom)"/>
+</svg>
