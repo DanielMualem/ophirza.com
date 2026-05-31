@@ -85,6 +85,14 @@ hr    { border:none; border-top:1px solid var(--rule); margin:0 0 96px; }
 }
 .s-intro { font-size:14px; color:var(--mid); line-height:1.7; max-width:640px; margin-bottom:32px; }
 
+/* ─── PLAYGROUND FIGURES ─────────────────────────────────────── */
+.pg-fig { margin:0; }
+.pg-img { display:block; width:100%; height:auto; border:none; border-radius:0; box-shadow:none; }
+.pg-cap {
+  font-size:14px; font-style:italic; color:var(--mid);
+  line-height:1.6; max-width:640px; margin-top:12px;
+}
+
 /* ─── HERO ───────────────────────────────────────────────────── */
 .hero { margin-bottom:96px; padding-top:48px; }
 
@@ -595,6 +603,11 @@ hr    { border:none; border-top:1px solid var(--rule); margin:0 0 96px; }
       })();
     </script>
 
+    <figure class="pg-fig" style="margin-bottom:40px;">
+      <img class="pg-img" src="mapping-pics/Mapping_playground.png" alt="The full Figma file laid out as labeled blocks — Card, Home, Creation, Block page, Generating, and more">
+      <figcaption class="pg-cap">The actual file. Each block is a piece of the flow I was working through. Some got nailed quickly. Some I rebuilt three or four times. The dense ones are where I spent the real time.</figcaption>
+    </figure>
+
     <div class="s-label" style="margin-bottom:16px;">What the process confirmed</div>
     <div class="insights">
       <div class="insight reveal d1">
@@ -610,6 +623,20 @@ hr    { border:none; border-top:1px solid var(--rule); margin:0 0 96px; }
         <div class="insight-text"><strong>Zero errors or failed recordings in the first field test.</strong> The health-gated recording start — blocking the drive until RTK, LiDAR, and system indicators were green — prevented wasted effort before it happened. The decision to surface failure conditions upfront, not after, paid off in the first real use.</div>
       </div>
     </div>
+  </div>
+
+  <hr>
+
+  <!-- THE BLOCK PAGE, IN DETAIL ───────────────────────────────── -->
+  <div class="s reveal">
+    <div class="s-label">Detail</div>
+    <div class="s-title">The block page, in detail</div>
+    <div class="s-intro">The block page was the screen that took the longest. It had to do too much at once — show which tractor was selected, which recordings already existed, which step the user was on, and what was blocking them from moving forward. The gated step logic was the hard part: at any given moment, a user could be looking at a state where they couldn't continue, and the screen had to make it obvious why. Add development constraints on top of that, and most of my versions failed one of those three things.</div>
+
+    <figure class="pg-fig">
+      <img class="pg-img" src="mapping-pics/Block_page_playground.png" alt="A grid of many iterations of the block page recording list">
+      <figcaption class="pg-cap">Most of the versions I tried before it locked.</figcaption>
+    </figure>
   </div>
 
   <hr>
